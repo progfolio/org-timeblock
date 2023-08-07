@@ -34,6 +34,7 @@
 ;;;; Requirements
 
 (require 'org)
+(eval-when-compile (require 'org-element-ast))
 (require 'svg)
 (require 'color)
 (require 'seq)
